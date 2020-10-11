@@ -30,7 +30,7 @@
                         <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
-                            <tableViewSection footerTitle="When enabled, websites will automatically open in DuckDuckGo." id="NRb-Cc-1d6" userLabel="Default Browser">
+                            <tableViewSection footerTitle="When enabled, websites will automatically open in Onbibi." id="NRb-Cc-1d6" userLabel="Default Browser">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" tag="1" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="setDefaultBrowserCell" textLabel="xof-5k-PkI" style="IBUITableViewCellStyleDefault" id="TFL-da-OrV" userLabel="Set as Default cell">
                                         <rect key="frame" x="0.0" y="18" width="414" height="44"/>
