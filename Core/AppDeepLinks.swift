@@ -33,7 +33,7 @@ public struct AppDeepLinks {
 
     public static let addFavorite = "ddgAddFavorite://"
 
-    public static let aboutLink = URL(string: "\(AppDeepLinks.quickLink)duckduckgo.com/about")!
+    public static let aboutLink = URL(string: "\(AppDeepLinks.quickLink)onbibi.com/page/about-us")!
 
     public static func isLaunchFavorite(url: URL) -> Bool {
         return isUrl(url, deepLink: launchFavorite)
