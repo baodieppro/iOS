@@ -27,24 +27,24 @@ public struct AppUrls {
             return isDebugBuild ? "?test=1" : ""
         }
         
-        static let base = ProcessInfo.processInfo.environment["BASE_URL", default: "https://duckduckgo.com"]
+        static let base = ProcessInfo.processInfo.environment["BASE_URL", default: "https://onbibi.com/search"]
         static let externalContentBase = "https://external-content.duckduckgo.com"
         static let staticBase = "https://staticcdn.duckduckgo.com"
         
-        static let autocomplete = "\(base)/ac/"
+        static let autocomplete = "https://duckduckgo.com/ac/"
         
-        static let surrogates = "\(base)/contentblocking.js?l=surrogates"
-        static let temporaryUnprotectedSites = "\(base)/contentblocking/trackers-whitelist-temporary.txt"
+        static let surrogates = "https://duckduckgo.com/contentblocking.js?l=surrogates"
+        static let temporaryUnprotectedSites = "https://cdn.onbibi.com/contentblocking/trackers-whitelist-temporary.txt"
         static let trackerDataSet = "\(staticBase)/trackerblocking/v2.1/tds.json"
 
-        static let atb = "\(base)/atb.js\(devMode)"
-        static let exti = "\(base)/exti/\(devMode)"
-        static let feedback = "\(base)/feedback.js?type=app-feedback"
+        static let atb = "https://duckduckgo.com/atb.js\(devMode)"
+        static let exti = "https://duckduckgo.com/exti/\(devMode)"
+        static let feedback = "https://duckduckgo.com/feedback.js?type=app-feedback"
  
         static let httpsBloomFilter = "\(staticBase)/https/https-mobile-bloom.bin?cache-version=1"
         static let httpsBloomFilterSpec = "\(staticBase)/https/https-mobile-bloom-spec.json?cache-version=1"
         static let httpsExcludedDomains = "\(staticBase)/https/https-mobile-whitelist.json?cache-version=1"
-        static let httpsLookupService = "\(base)/smarter_encryption.js"
+        static let httpsLookupService = "https://duckduckgo.com/smarter_encryption.js"
 
         static let pixelBase = ProcessInfo.processInfo.environment["PIXEL_BASE_URL", default: "https://improving.duckduckgo.com"]
         static let pixel = "\(pixelBase)/t/%@_ios_%@"
