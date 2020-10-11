@@ -1,4 +1,36 @@
 {
+    "onbibi": {
+        "score": -100,
+        "all": {
+            "bad": [],
+            "good": [
+                "no tracking, family-friendly search engine & web browser"
+            ]
+        },
+        "match": {
+            "bad": [],
+            "good": [
+                "no tracking, family-friendly search engine & web browser"
+            ]
+        },
+        "class": "A"
+    },
+    "onbibi.com": {
+        "score": -100,
+        "all": {
+            "bad": [],
+            "good": [
+                "no tracking"
+            ]
+        },
+        "match": {
+            "bad": [],
+            "good": [
+                "no tracking"
+            ]
+        },
+        "class": "A"
+    },
     "zoosk.com": {
         "score": 0,
         "all": {
