@@ -39,7 +39,7 @@ public class ContentBlockerProtectionUserDefaults: ContentBlockerProtectionStore
 
     public private(set) var unprotectedDomains: Set<String> {
         get {
-            guard let data = userDefaults?.data(forKey: Keys.whitelistedDomains) else { return Set<String>(["onbibi.com", "onbibi"]) }
+            guard let data = userDefaults?.data(forKey: Keys.unprotectedDomains) else { return Set<String>(["onbibi.com", "onbibi"]) }
             guard let unprotectedDomains = NSKeyedUnarchiver.unarchiveObject(with: data) as? Set<String> else { return Set<String>() }
             return unprotectedDomains
         }
