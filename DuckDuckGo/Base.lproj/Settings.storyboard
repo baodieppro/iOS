@@ -715,9 +715,9 @@
                                                 </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <string key="content">At DuckDuckGo, we’re setting the new standard of trust online.
+                                                        <string key="content">At Onbibi, we’re setting the new standard of trust online.
 
-DuckDuckGo Privacy Browser provides all the privacy essentials you need to protect yourself as you search and browse the web, including tracker blocking, smarter encryption, and DuckDuckGo private search. 
+Onbibi Browser provides all the privacy essentials you need to protect yourself as you search and browse the web, including tracker blocking, smarter encryption, and Onbibi family-friendly search engine. 
 
 After all, the internet shouldn’t feel so creepy, and getting the privacy you deserve online should be as simple as closing the blinds.</string>
                                                         <attributes>
@@ -736,7 +736,7 @@ After all, the internet shouldn’t feel so creepy, and getting the privacy you 
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="AIi-4Y-OcU"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
-                                                <state key="normal" title="More at duckduckgo.com/about">
+                                                <state key="normal" title="More at onbibi.com/page/about-us">
                                                     <color key="titleColor" red="0.31372549020000001" green="0.74901960779999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
