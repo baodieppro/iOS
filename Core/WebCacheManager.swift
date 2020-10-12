@@ -40,7 +40,7 @@ public protocol WebCacheManagerDataStore {
 public class WebCacheManager {
 
     private struct Constants {
-        static let cookieDomain = "duckduckgo.com"
+        static let cookieDomain = "onbibi.com"
     }
     
     public static var shared = WebCacheManager()
