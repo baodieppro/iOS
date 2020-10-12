@@ -89,7 +89,7 @@
 "alert.title.save.favorite" = "Save Favorite";
 
 /* Shown on authentication screen */
-"app.authentication.unlock" = "Unlock DuckDuckGo";
+"app.authentication.unlock" = "Unlock Onbibi";
 
 /* Authentication Alert Log In Button */
 "auth.alert.login.button" = "Log In";
