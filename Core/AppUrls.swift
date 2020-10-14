@@ -31,7 +31,7 @@ public struct AppUrls {
         static let externalContentBase = "https://external-content.duckduckgo.com"
         static let staticBase = "https://staticcdn.duckduckgo.com"
         
-        static let autocomplete = "https://duckduckgo.com/ac/"
+        static let autocomplete = "https://safe.duckduckgo.com/ac/"
         
         static let surrogates = "https://duckduckgo.com/contentblocking.js?l=surrogates"
         static let temporaryUnprotectedSites = "https://cdn.onbibi.com/contentblocking/trackers-whitelist-temporary.txt"
