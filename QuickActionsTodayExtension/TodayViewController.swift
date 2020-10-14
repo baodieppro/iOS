@@ -29,7 +29,6 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     @IBOutlet var loupeIcon: UIImageView!
     @IBOutlet var searchLabel: UILabel!
     @IBOutlet var bookmarksButton: UIButton!
-    @IBOutlet var clearDataButton: UIButton!
         
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -41,7 +40,6 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         loupeIcon.tintColor = lightThemeTintColor
         searchLabel.textColor = lightThemeTintColor
         bookmarksButton.setTitleColor(lightThemeTintColor, for: .normal)
-        clearDataButton.setTitleColor(lightThemeTintColor, for: .normal)
         
         if #available(iOSApplicationExtension 13.0, *) {
             if traitCollection.userInterfaceStyle == .light {
@@ -51,7 +49,6 @@ class TodayViewController: UIViewController, NCWidgetProviding {
                 loupeIcon.tintColor = darkThemeTintColor
                 searchLabel.textColor = darkThemeTintColor
                 bookmarksButton.setTitleColor(darkThemeTintColor, for: .normal)
-                clearDataButton.setTitleColor(darkThemeTintColor, for: .normal)
                 
                 updateImageColor(color: darkThemeTintColor, for: bookmarksButton)
                 updateImageColor(color: darkThemeTintColor, for: clearDataButton)
@@ -76,12 +73,6 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         let url = URL(string: AppDeepLinks.bookmarks)!
         extensionContext?.open(url, completionHandler: nil)
         Pixel.fire(pixel: .quickActionExtensionBookmarks)
-    }
-    
-    @IBAction func onFireTapped(_ sender: Any) {
-        let url = URL(string: AppDeepLinks.fire)!
-        extensionContext?.open(url, completionHandler: nil)
-        Pixel.fire(pixel: .quickActionExtensionFire)
     }
   
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
