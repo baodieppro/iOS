@@ -30,7 +30,8 @@ public struct AppUrls {
         static let base = ProcessInfo.processInfo.environment["BASE_URL", default: "https://onbibi.com/search"]
         static let externalContentBase = "https://external-content.duckduckgo.com"
         static let staticBase = "https://staticcdn.duckduckgo.com"
-        
+        static let home = "https://onbibi.com/news"
+
         static let autocomplete = "https://safe.duckduckgo.com/ac/"
         
         static let surrogates = "https://duckduckgo.com/contentblocking.js?l=surrogates"
@@ -69,7 +70,11 @@ public struct AppUrls {
     public init(statisticsStore: StatisticsStore = StatisticsUserDefaults()) {
         self.statisticsStore = statisticsStore
     }
-
+    
+    public static var home: URL {
+        return URL(string: Url.home)!
+    }
+    
     public var base: URL {
         return URL(string: Url.base)!
     }
