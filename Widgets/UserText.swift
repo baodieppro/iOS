@@ -34,11 +34,11 @@ struct UserText {
                                                                   comment: "Display name for search only widget in widget gallery")
 
     static let searchWidgetGalleryDescription = NSLocalizedString("widget.gallery.search.description",
-                                                                  value: "Quickly launch a private search in DuckDuckGo.",
+                                                                  value: "Quickly launch a private search in Onbibi.",
                                                                   comment: "Description of search only widget in widget gallery")
 
     static let searchDuckDuckGo = NSLocalizedString("widget.search.duckduckgo",
-                                                    value: "Search DuckDuckGo",
+                                                    value: "Search Onbibi",
                                                     comment: "Placeholder text in search field on the search and favorites widget")
 
     static let noFavoritesMessage = NSLocalizedString("widget.no.favorites.message",
