@@ -20,4 +20,4 @@ DEVELOPMENT_TEAM = QKT2GDLVYZ
 APP_ID = com.onbibi.browser
 
 // A prefix for group ids. Must start with "group.".
-GROUP_ID_PREFIX = group.com.duckduckgo
+GROUP_ID_PREFIX = group.com.onbibi
