@@ -14,10 +14,10 @@
 //
 
 // The Apple Developer account's Team ID
-DEVELOPMENT_TEAM = HKE973VLUW
+DEVELOPMENT_TEAM = QKT2GDLVYZ
 
 // The app bundle identifier
-APP_ID = com.duckduckgo.mobile.ios
+APP_ID = com.onbibi.browser
 
 // A prefix for group ids. Must start with "group.".
 GROUP_ID_PREFIX = group.com.duckduckgo
