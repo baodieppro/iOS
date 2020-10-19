@@ -17,7 +17,7 @@
 "action.title.enable.protection" = "Enable Privacy Protection";
 
 /* No comment provided by engineer. */
-"action.title.forgetAll" = "Restart & Clear all cache";
+"action.title.forgetAll" = "Restart & Clear all data";
 
 /* Confirmation message */
 "action.title.forgetAllDone" = "Restarted";
