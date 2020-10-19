@@ -20,7 +20,7 @@
 "action.title.forgetAll" = "Restart & Clear all data";
 
 /* Confirmation message */
-"action.title.forgetAllDone" = "Restarted";
+"action.title.forgetAllDone" = "Restarted & Cleared all data";
 
 /* Open in New Background Tab action */
 "action.title.newBackgroundTabForUrl" = "Open in Background";
