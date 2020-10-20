@@ -83,7 +83,7 @@ public class AppUserDefaults: AppSettings {
             } else if #available(iOS 13.0, *) {
                 return .systemDefault
             } else {
-                return .dark
+                return .light
             }
         }
         
