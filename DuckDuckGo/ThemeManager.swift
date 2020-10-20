@@ -71,7 +71,7 @@ class ThemeManager {
         case .light:
             return LightTheme()
         default:
-            return DarkTheme()
+            return LightTheme()
         }
     }
     
